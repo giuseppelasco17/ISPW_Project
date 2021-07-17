@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="495.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boundary.Uc4Visual">
+   <bottom>
+      <Button fx:id="return_bt" mnemonicParsing="false" onAction="#onReturnClick" text="Indietro" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <TableView fx:id="booking_tv" prefHeight="470.0" prefWidth="624.0" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn fx:id="bookerName" prefWidth="90.0" text="Nome" />
+            <TableColumn fx:id="bookerSurname" prefWidth="90.0" text="Cognome" />
+            <TableColumn fx:id="date" prefWidth="90.0" text="Data" />
+            <TableColumn fx:id="classroom" prefWidth="90.0" text="Aula" />
+            <TableColumn fx:id="course" prefWidth="90.0" text="Materia" />
+            <TableColumn fx:id="session" prefWidth="90.0" text="Sessione" />
+            <TableColumn fx:id="begin" prefWidth="90.0" text="Ora inizio" />
+            <TableColumn fx:id="end" prefWidth="90.0" text="Ora fine" />
+         </columns>
+      </TableView>
+   </center>
+</BorderPane>

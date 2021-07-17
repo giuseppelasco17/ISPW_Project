@@ -1,0 +1,119 @@
+[
+  {
+    "_comment":"id definito come data + ora inizio + bookerid es: 300001011100005",
+    "req type": "C",
+    "booker": "005",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "11:00",
+    "end": "13:00",
+    "class pref": ["A1"],
+    "n. seats": 0
+  },
+  {
+    "req type": "C",
+    "booker": "004",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "12:00",
+    "end": "15:00",
+    "class pref": ["A1"],
+    "n. seats": 0
+  },
+  {
+    "req type": "C",
+    "booker": "004",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "10:00",
+    "end": "12:00",
+    "class pref": ["A1"],
+    "n. seats": 0
+  },
+  {
+    "req type": "C",
+    "booker": "004",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "10:50",
+    "end": "14:00",
+    "class pref": ["A1"],
+    "n. seats": 0
+  },
+  {
+    "req type": "C",
+    "booker": "004",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "11:30",
+    "end": "12:30",
+    "class pref": ["A1"],
+    "n. seats": 0
+  },
+  {
+    "req type": "C",
+    "booker": "004",
+    "date": "3000-01-01",
+    "features": ["lavagna"],
+    "event type": "esame",
+    "session": "invernale",
+    "course": "fisica 1",
+    "begin": "11:30",
+    "end": "13:30",
+    "class pref": [],
+    "n. seats": 225
+  },
+  {
+    "req type": "D",
+    "req id": "300001011100005",
+    "booker": "005"
+  },
+  {
+    "req type": "D",
+    "req id": "300001011100005",
+    "booker": "004"
+  },
+  {
+    "req type": "M",
+    "booker": "004",
+    "date": "3000-01-05",
+    "features": ["proiettore"],
+    "event type": "esame",
+    "session": "estiva",
+    "course": "fondamenti di informatica",
+    "begin": "08:30",
+    "end": "11:00",
+    "class pref": ["A3","A2","A1","B2"],
+    "n. seats": 0,
+    "req id": "300001011200004"
+  },
+  {
+    "req type": "M",
+    "booker": "003",
+    "date": "3000-01-05",
+    "features": ["proiettore"],
+    "event type": "esame",
+    "session": "estiva",
+    "course": "fondamenti di informatica",
+    "begin": "08:30",
+    "end": "11:00",
+    "class pref": ["A3","A2","A1","B2"],
+    "n. seats": 0,
+    "req id": "300001011200004"
+  }
+]

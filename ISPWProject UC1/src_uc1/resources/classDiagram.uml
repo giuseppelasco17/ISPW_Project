@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.5" y="946.0">utility.ReadConnFile</node>
+    <node x="250.5" y="879.0">dao.DaoSS1</node>
+    <node x="1446.9472127996382" y="2199.0">boundary.SS2Interaction</node>
+    <node x="1227.25" y="1997.0">factory.CRequest</node>
+    <node x="995.0" y="1170.0">utility.InstantiateRequest</node>
+    <node x="904.6" y="879.0">entity.DeleteRequest</node>
+    <node x="1110.15316033469" y="1445.0">factory.DRequest</node>
+    <node x="231.5" y="1169.5">control.ControllerSS1</node>
+    <node x="1397.1972127996382" y="1214.0">factory.Request</node>
+    <node x="1213.9472127996382" y="957.0">entity.ModificationRequest</node>
+    <node x="1397.0722127996382" y="2098.0">factory.RequestFactory</node>
+    <node x="1451.4472127996382" y="2300.0">utility.ThreadRequest</node>
+    <node x="247.85911352329322" y="1997.0">factory.MRequest</node>
+    <node x="712.1328414744464" y="0.0">entity.CreationRequest</node>
+    <node x="338.68965965626467" y="364.0">daoResources.DaoResources</node>
+    <node x="622.0" y="1114.0">dao.Dao</node>
+    <node x="666.875" y="1665.0">control.Controller</node>
+    <node x="290.5674468566265" y="1478.0">boundary.SS1Interaction</node>
+    <node x="1472.9472127996382" y="2447.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="control.Controller" target="entity.CreationRequest">
+      <point x="-56.36363636363649" y="-136.0" />
+      <point x="765.5113636363635" y="1615.0" />
+      <point x="611.5" y="1615.0" />
+      <point x="611.5" y="849.0" />
+      <point x="800.9055687471737" y="849.0" />
+      <point x="-19.727272727272748" y="389.5" />
+    </edge>
+    <edge source="Main" target="utility.ThreadRequest">
+      <point x="-44.75" y="-36.5" />
+      <point x="1517.6972127996382" y="2422.0" />
+      <point x="1506.9472127996382" y="2422.0" />
+      <point x="-55.5" y="48.5" />
+    </edge>
+    <edge source="utility.InstantiateRequest" target="entity.DeleteRequest">
+      <point x="-150.39999999999986" y="-69.5" />
+      <point x="1032.6000000000001" y="1089.0" />
+      <point x="1034.8" y="1089.0" />
+      <point x="37.19999999999993" y="92.5" />
+    </edge>
+    <edge source="boundary.SS2Interaction" target="factory.Request">
+      <point x="77.0" y="-25.5" />
+      <point x="1639.4472127996382" y="2174.0" />
+      <point x="1716.3125" y="2174.0" />
+      <point x="1716.3125" y="1415.0" />
+      <point x="1616.7972127996384" y="1415.0" />
+      <point x="97.60000000000014" y="25.5" />
+    </edge>
+    <edge source="utility.InstantiateRequest" target="entity.CreationRequest">
+      <point x="75.20000000000005" y="-69.5" />
+      <point x="1258.2" y="1089.0" />
+      <point x="1203.4472127996382" y="1089.0" />
+      <point x="1203.4472127996382" y="849.0" />
+      <point x="860.0873869289919" y="849.0" />
+      <point x="39.454545454545496" y="389.5" />
+    </edge>
+    <edge source="control.ControllerSS1" target="utility.ReadConnFile">
+      <point x="-105.75" y="-70.0" />
+      <point x="266.75" y="1089.0" />
+      <point x="175.5" y="1089.0" />
+      <point x="55.0" y="25.5" />
+    </edge>
+    <edge source="factory.RequestFactory" target="factory.CRequest">
+      <point x="-28.375" y="-25.5" />
+      <point x="1482.1972127996382" y="2068.0" />
+      <point x="1349.25" y="2068.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="factory.DRequest" target="control.Controller">
+      <point x="0.0" y="70.0" />
+      <point x="1244.15316033469" y="1635.0" />
+      <point x="934.6022727272726" y="1635.0" />
+      <point x="112.72727272727263" y="-136.0" />
+    </edge>
+    <edge source="factory.RequestFactory" target="factory.DRequest">
+      <point x="28.375" y="-25.5" />
+      <point x="1538.9472127996382" y="2068.0" />
+      <point x="1672.613879466305" y="2068.0" />
+      <point x="1672.613879466305" y="1645.0" />
+      <point x="1351.35316033469" y="1645.0" />
+      <point x="107.20000000000005" y="70.0" />
+    </edge>
+    <edge source="dao.DaoSS1" target="daoResources.DaoResources">
+      <point x="-61.0" y="-92.5" />
+      <point x="311.5" y="799.0" />
+      <point x="403.68965965626467" y="799.0" />
+      <point x="-65.0" y="25.5" />
+    </edge>
+    <edge source="control.Controller" target="entity.DeleteRequest">
+      <point x="28.18181818181813" y="-136.0" />
+      <point x="850.0568181818181" y="1605.0" />
+      <point x="973.5" y="1605.0" />
+      <point x="973.5" y="1089.0" />
+      <point x="960.4" y="1089.0" />
+      <point x="-37.200000000000045" y="92.5" />
+    </edge>
+    <edge source="factory.CRequest" target="control.Controller">
+      <point x="-101.66666666666663" y="-25.5" />
+      <point x="1247.5833333333333" y="1977.0" />
+      <point x="860.625" y="1977.0" />
+      <point x="38.75" y="136.0" />
+    </edge>
+    <edge source="dao.Dao" target="entity.CreationRequest">
+      <point x="0.0" y="-125.5" />
+      <point x="792.5" y="859.0" />
+      <point x="820.6328414744464" y="859.0" />
+      <point x="0.0" y="389.5" />
+    </edge>
+    <edge source="factory.RequestFactory" target="factory.Request">
+      <point x="85.125" y="-25.5" />
+      <point x="1595.6972127996382" y="2078.0" />
+      <point x="1705.3125" y="2078.0" />
+      <point x="1705.3125" y="1425.0" />
+      <point x="1567.9972127996382" y="1425.0" />
+      <point x="48.799999999999955" y="25.5" />
+    </edge>
+    <edge source="factory.DRequest" target="entity.DeleteRequest">
+      <point x="-107.20000000000005" y="-70.0" />
+      <point x="1136.95316033469" y="1385.0" />
+      <point x="984.5" y="1385.0" />
+      <point x="984.5" y="1089.0" />
+      <point x="997.6" y="1089.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="factory.DRequest" target="entity.CreationRequest">
+      <point x="53.59999999999991" y="-70.0" />
+      <point x="1297.75316033469" y="1405.0" />
+      <point x="1386.6972127996382" y="1405.0" />
+      <point x="1386.6972127996382" y="829.0" />
+      <point x="899.5419323835373" y="829.0" />
+      <point x="78.90909090909088" y="389.5" />
+    </edge>
+    <edge source="utility.ThreadRequest" target="boundary.SS2Interaction">
+      <point x="55.5" y="-48.5" />
+      <point x="1617.9472127996382" y="2275.0" />
+      <point x="1620.1972127996382" y="2275.0" />
+      <point x="57.75" y="25.5" />
+    </edge>
+    <edge source="dao.DaoSS1" target="entity.CreationRequest">
+      <point x="61.0" y="-92.5" />
+      <point x="433.5" y="819.0" />
+      <point x="741.7237505653555" y="819.0" />
+      <point x="-78.90909090909088" y="389.5" />
+    </edge>
+    <edge source="factory.MRequest" target="control.Controller">
+      <point x="101.66666666666674" y="-25.5" />
+      <point x="471.52578018995996" y="1977.0" />
+      <point x="783.125" y="1977.0" />
+      <point x="-38.75" y="136.0" />
+    </edge>
+    <edge source="boundary.SS1Interaction" target="entity.CreationRequest">
+      <point x="98.0" y="-37.0" />
+      <point x="535.5674468566265" y="1385.0" />
+      <point x="565.625" y="1385.0" />
+      <point x="565.625" y="839.0" />
+      <point x="781.1782960199009" y="839.0" />
+      <point x="-39.454545454545496" y="389.5" />
+    </edge>
+    <edge source="control.ControllerSS1" target="dao.DaoSS1">
+      <point x="35.25" y="-70.0" />
+      <point x="407.75" y="1089.0" />
+      <point x="433.5" y="1089.0" />
+      <point x="61.0" y="92.5" />
+    </edge>
+    <edge source="dao.Dao" target="entity.DeleteRequest">
+      <point x="113.66666666666663" y="-125.5" />
+      <point x="906.1666666666665" y="1089.0" />
+      <point x="923.2" y="1089.0" />
+      <point x="-74.39999999999998" y="92.5" />
+    </edge>
+    <edge source="factory.CRequest" target="entity.CreationRequest">
+      <point x="101.66666666666663" y="-25.5" />
+      <point x="1450.9166666666665" y="1977.0" />
+      <point x="1651.6972127996382" y="1977.0" />
+      <point x="1651.6972127996382" y="819.0" />
+      <point x="919.26920511081" y="819.0" />
+      <point x="98.63636363636363" y="389.5" />
+    </edge>
+    <edge source="control.Controller" target="factory.DRequest">
+      <point x="84.54545454545439" y="-136.0" />
+      <point x="906.4204545454544" y="1625.0" />
+      <point x="1190.5531603346901" y="1625.0" />
+      <point x="-53.59999999999991" y="70.0" />
+    </edge>
+    <edge source="control.Controller" target="dao.Dao">
+      <point x="-28.181818181818244" y="-136.0" />
+      <point x="793.6931818181818" y="1645.0" />
+      <point x="815.1328414744464" y="1645.0" />
+      <point x="815.1328414744464" y="1385.0" />
+      <point x="707.25" y="1385.0" />
+      <point x="-85.25" y="125.5" />
+    </edge>
+    <edge source="utility.InstantiateRequest" target="entity.ModificationRequest">
+      <point x="150.4000000000001" y="-69.5" />
+      <point x="1333.4" y="1089.0" />
+      <point x="1292.9472127996382" y="1089.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="factory.MRequest" target="entity.CreationRequest">
+      <point x="-101.66666666666674" y="-25.5" />
+      <point x="268.1924468566265" y="1977.0" />
+      <point x="0.0" y="1977.0" />
+      <point x="0.0" y="809.0" />
+      <point x="721.9964778380828" y="809.0" />
+      <point x="-98.63636363636363" y="389.5" />
+    </edge>
+    <edge source="entity.ModificationRequest" target="entity.CreationRequest">
+      <point x="0.0" y="-14.5" />
+      <point x="1292.9472127996382" y="839.0" />
+      <point x="879.8146596562646" y="839.0" />
+      <point x="59.18181818181813" y="389.5" />
+    </edge>
+    <edge source="control.ControllerSS1" target="entity.CreationRequest">
+      <point x="105.75" y="-70.0" />
+      <point x="478.25" y="1089.0" />
+      <point x="554.625" y="1089.0" />
+      <point x="554.625" y="829.0" />
+      <point x="761.4510232926283" y="829.0" />
+      <point x="-59.18181818181813" y="389.5" />
+    </edge>
+    <edge source="factory.MRequest" target="utility.InstantiateRequest">
+      <point x="-61.0" y="-25.5" />
+      <point x="308.8591135232932" y="1967.0" />
+      <point x="188.93965965626467" y="1967.0" />
+      <point x="188.93965965626467" y="1395.0" />
+      <point x="1026.3333333333335" y="1395.0" />
+      <point x="-156.66666666666663" y="69.5" />
+    </edge>
+    <edge source="factory.RequestFactory" target="factory.MRequest">
+      <point x="-85.125" y="-25.5" />
+      <point x="1425.4472127996382" y="2078.0" />
+      <point x="369.8591135232932" y="2078.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="factory.CRequest" target="factory.Request">
+      <point x="61.0" y="-25.5" />
+      <point x="1410.25" y="1967.0" />
+      <point x="1519.1972127996382" y="1967.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="factory.DRequest" target="factory.Request">
+      <point x="107.20000000000005" y="-70.0" />
+      <point x="1351.35316033469" y="1425.0" />
+      <point x="1470.3972127996383" y="1425.0" />
+      <point x="-48.799999999999955" y="25.5" />
+    </edge>
+    <edge source="factory.MRequest" target="factory.Request">
+      <point x="20.333333333333258" y="-25.5" />
+      <point x="390.1924468566265" y="1957.0" />
+      <point x="595.0674468566265" y="1957.0" />
+      <point x="595.0674468566265" y="1415.0" />
+      <point x="1421.5972127996383" y="1415.0" />
+      <point x="-97.59999999999991" y="25.5" />
+    </edge>
+    <edge source="boundary.SS2Interaction" target="factory.RequestFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="1562.4472127996382" y="2174.0" />
+      <point x="1567.3222127996382" y="2174.0" />
+      <point x="56.75" y="25.5" />
+    </edge>
+    <edge source="control.Controller" target="utility.ReadConnFile">
+      <point x="-140.909090909091" y="-136.0" />
+      <point x="680.965909090909" y="1645.0" />
+      <point x="65.5" y="1645.0" />
+      <point x="-55.0" y="25.5" />
+    </edge>
+    <edge source="factory.CRequest" target="utility.InstantiateRequest">
+      <point x="-20.33333333333337" y="-25.5" />
+      <point x="1328.9166666666665" y="1967.0" />
+      <point x="1388.65316033469" y="1967.0" />
+      <point x="1388.65316033469" y="1395.0" />
+      <point x="1277.0" y="1395.0" />
+      <point x="94.0" y="69.5" />
+    </edge>
+    <edge source="control.Controller" target="boundary.SS1Interaction">
+      <point x="-84.54545454545462" y="-136.0" />
+      <point x="737.3295454545454" y="1625.0" />
+      <point x="511.0674468566265" y="1625.0" />
+      <point x="73.5" y="37.0" />
+    </edge>
+    <edge source="boundary.SS1Interaction" target="control.ControllerSS1">
+      <point x="-98.0" y="-37.0" />
+      <point x="339.5674468566265" y="1385.0" />
+      <point x="302.0" y="1385.0" />
+      <point x="-70.5" y="70.0" />
+    </edge>
+    <edge source="dao.Dao" target="daoResources.DaoResources">
+      <point x="-113.66666666666674" y="-125.5" />
+      <point x="678.8333333333333" y="1089.0" />
+      <point x="576.625" y="1089.0" />
+      <point x="576.625" y="799.0" />
+      <point x="533.6896596562647" y="799.0" />
+      <point x="65.0" y="25.5" />
+    </edge>
+    <edge source="factory.DRequest" target="utility.InstantiateRequest">
+      <point x="0.0" y="-70.0" />
+      <point x="1244.15316033469" y="1405.0" />
+      <point x="1214.3333333333333" y="1405.0" />
+      <point x="31.333333333333258" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5785356068204616" x="505.52120949780755" y="1272.700661133102" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

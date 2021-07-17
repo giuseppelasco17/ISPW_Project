@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="444.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boundary.Uc5Home">
+   <children>
+      <ChoiceBox fx:id="type_choicebox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="course_tf" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Materia" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <TextField fx:id="session_tf" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Sessione" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <DatePicker fx:id="date_pk" prefHeight="25.0" prefWidth="150.0" promptText="Data: gg-mm-aaaa" GridPane.rowIndex="5" />
+      <TextField fx:id="begin_tf" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Dalle ore: hh:mm" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <TextField fx:id="end_tf" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Alle ore: hh:mm" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Button fx:id="search_bt" mnemonicParsing="false" onAction="#onSearchClick" prefHeight="25.0" prefWidth="157.0" text="Cerca" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Label text="Tipologia:" GridPane.columnIndex="1" />
+      <Label fx:id="errorDate_lb" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" textFill="RED" visible="false" GridPane.rowIndex="6" />
+      <Label fx:id="errorBegin_lb" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="errorEnd_lb" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" textFill="RED" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="errorTeacher_lb" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" textFill="RED" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+</GridPane>
